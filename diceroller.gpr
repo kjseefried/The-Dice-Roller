@@ -16,7 +16,8 @@ project DiceRoller is
       Common_Options := ("-gnatwa",
                          "-gnaty3abcdefhiklmnoprstux",
                          "-Wall",
-                         "-O2");
+                         "-O2",
+                         "-gnat05");
 
      for Default_Switches ("Ada") use Common_Options;
 
