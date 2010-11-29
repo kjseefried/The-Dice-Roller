@@ -1,0 +1,25 @@
+project DiceRoller is
+
+   for Source_Dirs use ("./**");
+   for Main use ("diceroller.adb");
+   for Exec_Dir use "exe";
+   for Object_Dir use "objects";
+
+   package Ide is
+
+      for Compiler_Command ("ada") use "/usr/gnat/bin/gnatmake";
+
+   end Ide;
+
+   package Compiler is
+
+      Common_Options := ("-gnatwa",
+                         "-gnaty3abcdefhiklmnoprstux",
+                         "-Wall",
+                         "-O2");
+
+     for Default_Switches ("Ada") use Common_Options;
+
+   end Compiler;
+
+end DiceRoller;
