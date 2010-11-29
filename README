@@ -3,6 +3,10 @@ This is the source code for the Ada-DK Wiki The Dice Roller tutorial program.
 It is not intended to be a full-fledged diceroller, but merely a demonstration
 on how one such could be done in Ada.
 
+Full instructions on usage can be found at this URL:
+
+    http://wiki.ada-dk.org/index.php/The_Dice_Roller_Program
+
 This program is distributed in the hope that it will be useful, but WITHOUT 
 ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
 FOR A PARTICULAR PURPOSE.
